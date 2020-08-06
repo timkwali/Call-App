@@ -24,7 +24,7 @@
         android:id="@+id/btCall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="216dp"
+        android:layout_marginBottom="48dp"
         android:text="CALL"
         android:textColor="@color/white"
         android:background="@color/colorPrimaryDark"
@@ -39,13 +39,13 @@
         android:layout_height="60dp"
         android:layout_marginBottom="76dp"
         android:inputType="phone"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimary"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/btCall"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvMessage"
-        app:layout_constraintVertical_bias="0.721" />
+        app:layout_constraintVertical_bias="0.833" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
